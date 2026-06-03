@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+}
+
+/* Sections */
+section {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Section Titles */
+section h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2563eb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Skills List */
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+/* Projects */
+h3 {
+    margin-top: 15px;
+    color: #111827;
+}
+
+section p {
+    margin-top: 8px;
+}
+
+/* Contact Section */
+section:last-of-type p {
+    margin: 10px 0;
+}
+
+/* Horizontal Line */
+hr {
+    display: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    ul li {
+        display: block;
+        width: fit-content;
+    }
+}
